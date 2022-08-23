@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 
 class ChartistGraph extends Component {
 
-  displayName: 'ChartistGraph'
-
   componentWillUnmount() {
     if (this.chartist) {
       try {
